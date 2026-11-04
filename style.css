@@ -1,19 +1,26 @@
-body {
-
-display: flex;
-justify-content: center;
-align-items: center;
-
-height: 700px;
-
-
+#event-log{
+    background-color: darkgray;
+    margin-top:2em;
+    border-radius: 0.5em;
+    min-height: 10em;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
 }
-.title {
-display: flex;
-justify-content: center;
-border: red solid 4px;
-padding: 3px;
-margin: 20px;
-font-size: 30px;;
 
+#event-log p{
+    margin-inline: 0.5em;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#event-log-text{
+    margin-inline: 10em;
+}
+
+#playerButtons{
+    margin-top: 3em; ;
 }
