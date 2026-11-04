@@ -3,11 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <script defer src="code.js"></script>
-     <link rel="stylesheet" href= "style.css">
-    <title>Rock paper scissors!</title>
+    <title>JavaScript Testing</title>
+    <script src="script.js" defer></script>
+    <link rel='stylesheet' href="style.css"></link>
 </head>
 <body>
-    
+    <div class="container">
+        <div id="playerButtons">
+            <button data-choice="rock">Rock</button>
+            <button data-choice="paper">Paper</button>
+            <button data-choice="scissors">Scissors</button>
+        </div>
+        <p id="humanScore"></p>
+        <p id="computerScore"></p>
+        <div id="event-log">
+            <p id="event-log-text">Event Log</p>
+        </div>
+    </div>
 </body>
+
 </html>
